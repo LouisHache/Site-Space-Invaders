@@ -16,7 +16,7 @@
 
         <div class="container main">
 			<div class="row">
-
+<!-- 
 					<h1 class="center-text"> Créez votre propre langue !</h1>
 					<br>
 					<div class="row">
@@ -41,7 +41,7 @@
 						<div class="col-sm-2 ">
 							<img src="images/language-brain.JPG" alt="Beauty of Language" class="img-center">
 						</div>
-					</div>
+					</div>-->
 				
 			</div>
             <!-- Exemple de langues -->

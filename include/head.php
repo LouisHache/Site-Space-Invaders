@@ -43,12 +43,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     <?php
                     print "<li class=".(($_SESSION["page"] == "accueil")?'active':'')."><a href='index.php'>Accueil</a></li>";
-                    print "<li class=".(($_SESSION["page"] == "parcourir")?'active':'')."><a href='langue_explorer.php'>Parcourir langue</a></li>";
+                    print "<li class=".(($_SESSION["page"] == "parcourir")?'active':'')."><a href='langue_explorer.php'>Page 1</a></li>";
 
-                    if($_SESSION["logged"]==1)
-                    {
-                        print "<li class=".(($_SESSION["page"] == "cree")?'active':'')."><a href='creerLangue-page.php'>Créer une langue</a></li>";
-                    }
+                    print "<li class=".(($_SESSION["page"] == "cree")?'active':'')."><a href='creerLangue-page.php'>Page 2</a></li>";
                     ?>
                 </ul>
 
