@@ -48,8 +48,8 @@
         </div>
 
 		<?php
-		include "include/Footer3Langues.php";
-		Footer3Langues();
+		//include "include/Footer3Langues.php";
+		//Footer3Langues();
 		?>
 		
 		</div>
