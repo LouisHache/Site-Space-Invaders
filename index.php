@@ -10,9 +10,11 @@
 ?>
     <div class="container-fluid">
 		<!-- Présentation du site -->
-        <?php
-			include "include/Logo.php";
-		?>
+        <div class="text-center mt-4">
+			<h1 class="my-2">Space Invaders</h1>
+			<div class="text-heading text-muted text-lg"><strong>Guillaume Creusot ~ Salomé Gomez ~ Younès Rabii ~ Louis Hache ~ Marie-Camille Brunet </strong></div>
+		</div>
+
 
         <div class="container main">
 			<div class="row">
