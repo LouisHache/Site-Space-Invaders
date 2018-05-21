@@ -1,59 +1,36 @@
 <html>
 <?php
-	/* Session */
-    if(!session_id())session_start();
-    $_SESSION["page"] = "accueil";
 
 	/* include */
     include "include/head.php";
 	
 ?>
-    <div class="container-fluid">
+    <div class="container">
 		<!-- Présentation du site -->
-        <div class="text-center mt-4">
-			<h1 class="my-2">Space Invaders</h1>
-			<div class="text-heading text-muted text-lg"><strong>Guillaume Creusot ~ Salomé Gomez ~ Younès Rabii ~ Louis Hache ~ Marie-Camille Brunet </strong></div>
+		<div class="bg-faded p-3 my-3">
+			<div class="text-center mt-4">
+				<img src="images/screenshot.png" alt="screenshot" class="img-center img-fluid">
+				<h1 class="my-2">Space Invaders</h1>
+				<div class="text-heading text-muted text-lg"><strong>Guillaume Creusot ~ Salomé Gomez ~ Younès Rabii ~ Louis Hache ~ Marie-Camille Brunet </strong></div>
+			</div>
+		</div>
+		
+		<div class="bg-faded p-4 my-4">
+			<hr class="divider">
+			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Le projet </strong></h2>
+			<hr class="divider"><br>
+			<p class="text-center"><strong>Afficher la zone d’attention des joueurs influe-t-il sur la collaboration observée entre ces joueurs ?</strong></p><br>
+			<p>Pour répondre à cette question, nous avons adapté le célèbre jeu SPACE INVADER sur grand écran, pour deux joueurs. Contrairement à l’originale, cette version du jeu utilise les mouvements de tête pour contrôler la visée, grâce à la technologie du headtracking. 
+			</p>
 		</div>
 
 
-        <div class="container main">
-			<div class="row">
-<!-- 
-					<h1 class="center-text"> Créez votre propre langue !</h1>
-					<br>
-					<div class="row">
-						<div class="col-sm-2 col-sm-offset-2">
-							<img src="images/tolkien.png" alt="elfique" class="img-center">
-						</div>
-						<div class="col-sm-5 col-sm-offset-1">
-							<h3>Comme Tolkien !</h3>
-							Vous avez toujours admiré Tolkien ou G R.R. Martin pour avoir réussi à créer
-							entièrement des langues ? Bientôt vous aussi en serez capables !
-						</div>
-					</div>
-					<br>
-					<hr class="line center-line">
-					<br>
-					<div class="row">
-						<div class="col-sm-5 col-sm-offset-2">
-							<h3>Un outil extraordinaire!</h3>
-							Grâce à Cha Ba Da !, vous pouvez créer une langue de toutes pièces, de la grammaire
-							au vocabulaire en passant par les conjugaisons et déclinaisons !
-						</div>
-						<div class="col-sm-2 ">
-							<img src="images/language-brain.JPG" alt="Beauty of Language" class="img-center">
-						</div>
-					</div>-->
-				
-			</div>
-            <!-- Exemple de langues -->
-        </div>
-
-		<?php
-		//include "include/Footer3Langues.php";
-		//Footer3Langues();
-		?>
-		
+        <div class="bg-faded p-4 my-4">
+			<hr class="divider">
+			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Contexte du projet </strong></h2>
+			<hr class="divider">
+			<p>Ce projet s’inscrit dans un contexte de recherche visant à comparer l’influence du point d’attention sur la performance en collaboration d’une équipe sur un grand écran. </p>
+			<p>Ce projet rendre dans le cadre des thèses de deux de nos tuteurs Damien Marion travaillant sur l’affichage d’informations sur grand écran, Baptiste Prebot travaillant sur la collaboration en gestion de crise. Il se situe dans les domaines d’étude de la Team Cognition et des jeux vidéos.</p>
 		</div>
     </div>
 	<br><br>

@@ -30,7 +30,7 @@
 
     <h1 class = "center-text text-heading text-white tagline-upper text-shadow hidden-md-down"> SPACE INVADERS </h1>
     <p class="center-text hidden-md-down">
-		<img src="images/alien.png" alt="logo" class="img-center ">
+		<img src="images/alien.png" alt="logo" class="max-150px img-center ">
 	</p>
     <div class="tagline-lower text-center text-heading text-shadow text-uppercase text-white mb-4 hidden-md-down">Projet Transdisciplinaire </div>
     <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-4 hidden-md-down">1A ENSC 2017-2018 </div>
@@ -51,6 +51,9 @@
                     <li class="nav-item ">
                         <a class="nav-link text-uppercase text-expanded" href="index.php">Le Projet <span class="sr-only">(current)</span></a>
                     </li>
+					<li class="nav-item px-lg-2">
+                        <a class="nav-link text-uppercase text-expanded" href="equipe.php">Organisation</a>
+					</li>
                     <li class="nav-item px-lg-2">
                         <a class="nav-link text-uppercase text-expanded" href="protocole.php">Notre Protocole</a>
                 

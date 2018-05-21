@@ -4,7 +4,12 @@
 }
 
 body{
-    background-color: #B2B2B2;
+    
+	background: url('../images/espace.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
 }
 
 .recherche{
@@ -26,7 +31,7 @@ body{
 	background-color : #B2B2B2;
 }
 	
-img{
+.max-150px{
 	max-height: 150px;
 }
 
@@ -34,8 +39,8 @@ p{
     font-size : 16;
 }
 
-.footer {
-    position: fixed;
+.footer {/*
+    position: fixed;*/
     left: 0;
     bottom: 0;
     width: 100%;
