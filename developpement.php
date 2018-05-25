@@ -11,7 +11,7 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>La kinect </strong></h2>
 			<hr class="divider"><br>
-			<p>A rédiger par Guigui
+			<p>A rédiger par Guillaume
 			</p>
 		</div>
 		
@@ -19,7 +19,7 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Le jeu </strong></h2>
 			<hr class="divider"><br>
-			<p>A rédiger par Youyou et Salomé
+			<p>A rédiger par Younès et Salomé
 			</p>
 		</div>
     </div>

@@ -28,7 +28,7 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Questionnaire </strong></h2>
 			<hr class="divider">
-			<p>Wallah je sais pas, on l'a perdu</p>
+			<p><!--Wallah je sais pas, on l'a perdu-->A remplir par MC</p>
 		</div>
 		
 		<div class="bg-faded p-4 my-4">
