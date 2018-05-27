@@ -28,7 +28,10 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Questionnaire </strong></h2>
 			<hr class="divider">
-			<p><!--Wallah je sais pas, on l'a perdu-->A remplir par MC</p>
+			<p>Dans ce projet, le but est de réussir à évaluer la collaboration des joueurs. Pour cela nous avons des données quantitatives, qui vont être les différents scores mis en place dans une partie de jeu. 
+			Mais nous avons également besoin de données qualitatives, récoltées auprès des joueurs.</br>
+			Travaillant avec des être humains, il nous a semblé essentiel d'avoir un retour sur les ressentis et les impressions qu'ont pu vivre les personnes en situation de collaboration. Car la collaboration est aussi un sentiment de soutien et de travail d'équipe.
+			Nous avons donc mis en place sur la base du questionnaire AttrakDiff, une courte phase de restitution d'informations auprès des joueurs.</p>
 		</div>
 		
 		<div class="bg-faded p-4 my-4">

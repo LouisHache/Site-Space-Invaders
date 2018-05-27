@@ -11,9 +11,15 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Les apports </strong></h2>
 			<hr class="divider"><br>
-			<p>Les apports de ce projet sont nombreux : il nous a notamment appris à mieux répartir les tâches et gérer un planning lors d'un projet se déroulant sur une longue période.</p>
-			<p>Nous avons appris à garder de bonnes relations et à faire des rapports réguliers à nos clients. <!--les Doctorants, bien qu'ils ne nous aient jamais invité à leur jeu (remarque c'est réciproque).--></p>
-			<p><!--Guigui a appris à utiliser une technologie obsolète et vouée à disparaître (la Kinect), et Salomé et youyou ont appris à subir l'utilisation de Unity.-->De plus il nous a permis de nous former aux technologies Unity et celles utilisées par la Kinect.</p>
+			<p>Les apports de ce projet sont nombreux.</p>
+			<p>Tout d'abord, pour la gestion de projet. En effet, ce projet a duré environ 9 mois et a été l'un des premiers projets proposés à l'ENSC. 
+			Nous avons donc appris a géré un projet long, et difficile car nouveau dans sa forme et dans les compétences qu'il demandait.</br> 
+			De plus, nous étions une équuipe de cinq première année, venant de milieux scolaires différents. Nous avons dons appris à nous conaitre, ainsi qu'à travailler ensemble.</p>
+			</br>
+			<p>Un autre apport de ce projet est la relation client. Contrairement à ce que nous avons pu faire dans nos années d'études précédentes, ce projet nous a mis en relation avec des clients, 
+			proposant de véritables problématiques, et demandant des résultats. Nous avons donc appris à travailler en sachant cela, 
+			et en apprenant également à répondre aux besoins et aux attentes de personnes réelles.</p></br>
+			<p>Enfin, nous avons appris à utiliser des technologies que nous ne connaissions pas, à savoir Unity, et la technologie utilisée par la Kinect.</p>
 		</div>
 		
 		<div class="bg-faded p-4 my-4">
