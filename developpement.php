@@ -57,6 +57,30 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Le jeu </strong></h2>
 			<hr class="divider"><br>
+			<p>
+			Nous avons séparé le développement du jeu en 4 modules : <br>
+					-	gestion de la génération des ennemis<br>
+					-	gestion de la prise de dégats <br>
+					-	gestion du score<br>
+					-   gestion des canons et des balles<br>
+			</p>
+			<p>
+			<div class="col-lg-6">
+
+			</div>
+			</p>
+			</div>
+			<div class="bg-faded p-4 my-4">
+			<hr class="divider">
+			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Scriptage d'une partie </strong></h2>
+			<hr class="divider"><br>
+			<p>A rédiger par Younès et Salomé
+			</p>
+			</div>
+			<div class="bg-faded p-4 my-4">
+			<hr class="divider">
+			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Sauvegarde des données </strong></h2>
+			<hr class="divider"><br>
 			<p>A rédiger par Younès et Salomé
 			</p>
 		</div>
