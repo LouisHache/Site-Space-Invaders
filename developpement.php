@@ -87,10 +87,18 @@
 			<hr class="divider"><br>
 			<p>
 				Méthode : 
-					génération aléatoire d'une partie pendant une durée n  et enregistrement des positions générée pour toutes les vagues dans un fichier texte<br>
+					génération aléatoire d'une partie pendant une certaine durée  et enregistrement des positions générée pour toutes les vagues dans un fichier texte<br>
 					ajout des évenements scriptés à la main <br>
 					réalisation du symetrique à ajouter à la fin du fichier texte<br>
-				Le script de génération des ennemis est prêt à etre utiliser.
+				Le script de génération des ennemis est prêt à etre utiliser.<br>
+				Au depart nous avions pris une vitesse de 2 pour les ennemis. Apres des tests utilisateurs, nous l'avons multipliée par deux. 
+				Nous avions aussi prévus dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.
+				Les evenements scriptés : de maniere reguliere nous declenchons les evenements suivants  :.<br>
+				- apparition de l'ennemi beta a gauche(*2).<br>
+				- apparition de l'ennemi beta a droite  (*2).<br>
+				- apparition de l'ennemi beta au cente.<br>
+				- surcharge à droite (*2).<br>
+				-surcharge à gauche (*2).<br>
 
 			</p>
 			</div>
@@ -98,7 +106,7 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Sauvegarde des données </strong></h2>
 			<hr class="divider"><br>
-			<p>A rédiger par Younès et Salomé
+			<p>
 			</p>
 		</div>
     </div>
