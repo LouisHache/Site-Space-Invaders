@@ -66,7 +66,18 @@
 			</p>
 			<p>
 			<div class="col-lg-6">
-
+				<strong>gestion de la génération des ennemis</strong>
+				Nous avons crée 3 scripts permettant la génération d'ennemis : <br>
+					un permettant la génération aléatoire des dits ennemis<br>
+					un permettant la génération et l'enregistrement des positions de spawn générées<br>
+					un permet la génération d'ennemis à partir d'un script
+			</div>
+			</p>
+			<p>
+			<div class="col-lg-6">
+				<strong>gestion de la prise de dégat</strong>
+					L'ennemis alpha est supprimé dès qu'il entre en contact avec une balle.<br>
+					L'ennemi beta est éliminé dès lors qu'il est touché par 2 balles provenant de chaque joueur dans un intervalle de temps restreint<br>
 			</div>
 			</p>
 			</div>
@@ -74,7 +85,13 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Scriptage d'une partie </strong></h2>
 			<hr class="divider"><br>
-			<p>A rédiger par Younès et Salomé
+			<p>
+				Méthode : 
+					génération aléatoire d'une partie pendant une durée n  et enregistrement des positions générée pour toutes les vagues dans un fichier texte<br>
+					ajout des évenements scriptés à la main <br>
+					réalisation du symetrique à ajouter à la fin du fichier texte<br>
+				Le script de génération des ennemis est prêt à etre utiliser.
+
 			</p>
 			</div>
 			<div class="bg-faded p-4 my-4">
