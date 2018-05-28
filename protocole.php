@@ -31,7 +31,9 @@
 			<p>Dans ce projet, le but est de réussir à évaluer la collaboration des joueurs. Pour cela nous avons des données quantitatives, qui vont être les différents scores mis en place dans une partie de jeu. 
 			Mais nous avons également besoin de données qualitatives, récoltées auprès des joueurs.</br>
 			Travaillant avec des être humains, il nous a semblé essentiel d'avoir un retour sur les ressentis et les impressions qu'ont pu vivre les personnes en situation de collaboration. Car la collaboration est aussi un sentiment de soutien et de travail d'équipe.
-			Nous avons donc mis en place sur la base du questionnaire AttrakDiff, une courte phase de restitution d'informations auprès des joueurs.</p>
+			Nous avons donc mis en place une courte phase de restitution d'informations auprès des joueurs qui sera en deux phases.</br>
+			Tout d'abord ils devront répondre au questionnaie AttrakDiff pour évaluer notre jeu, puis à quelques questions ouvertes pour évaluer leur sentiment de collaboration.</p>
+			<div class="text-center"><a href="questionnaire.php"> Questionnaire de fin d'expérience </a></div>
 		</div>
 		
 		<div class="bg-faded p-4 my-4">
