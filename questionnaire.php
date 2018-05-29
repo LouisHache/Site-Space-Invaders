@@ -15,7 +15,7 @@
             </br></br>
             <div class="text-center"><strong>Questions ouvertes </strong></br></br></div>
             <p>
-                Sur une échelle de 1 à 10 (1 étant "inconnu" et 10 "Best Friend Forever "), à quel point connaissez-vous votre partenaire de jeu ? </br></br>
+                Sur une échelle de 1 à 10 (1 étant "inconnu" et 10 "connaissance de longue date"), à quel point connaissez-vous votre partenaire de jeu ? </br></br>
                 Connaissiez vous le jeu du Space Invaders avant cette expérience ? </br></br>
                 Avez-vous ressenti des moments dans le jeu où la collaboration était plus importante ?</br>
                 Si oui, pouvez-vous identifiez ces moments ? </br></br>
