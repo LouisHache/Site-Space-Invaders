@@ -67,6 +67,7 @@
 			</ul>
 				<div class = "row">
 					<div class="col-lg-6">
+					<br>
 						<strong>Gestion de la génération des ennemis</strong> : <br/>
 						Nous avons crée 3 scripts permettant la génération d'ennemis : <br>
 							un permettant la génération aléatoire des dits ennemis<br>
@@ -104,12 +105,15 @@
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Scriptage d'une partie </strong></h2>
 			<hr class="divider"><br>
 			<p>
-				Méthode : 
-					génération aléatoire d'une partie pendant une certaine durée  et enregistrement des positions générée pour toutes les vagues dans un fichier texte<br>
-					ajout des évenements scriptés à la main <br>
-					réalisation du symetrique à ajouter à la fin du fichier texte<br>
+				<ul>
+					<li>Méthode : 
+						génération aléatoire d'une partie pendant une certaine durée  et enregistrement des positions générées pour toutes les vagues dans un fichier texte</li>
+					<li>Ajout des évenements scriptés à la main </li>
+					<li>Réalisation du symetrique à ajouter à la fin du fichier texte</li>
+					</ul>
 				Le script de génération des ennemis est prêt à etre utiliser.<br>
 				Nous avions prévus au départ dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.<br>
+			
 				<div class = "row">
 				<div class="col-lg-6">
 				<strong>Les évenements scriptés </strong><br> De manière reguliere nous declenchons les evenements suivants :<br>
