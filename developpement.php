@@ -86,7 +86,19 @@
 				<p>
 					<div class="col-lg-6">
 						<strong>Gestion du score</strong> : <br/>
-							
+							Conformément au protocole nous avons mis en place deux scores : 
+							<ul>
+								<li>Un score de motivation, visible par les joueurs. Il augmente lorsqu'ils éliminent des ennemis et diminue lorsqu'ils les laissent passer.</li>
+								<li>Un score caché, qui mesure leur collaboration selon des scénarios préétablis.</li>
+							</ul>
+					</div>
+				</p>
+				
+				<p>
+					<div class="col-lg-6">
+						<strong>Gestion du canons et des balles</strong> : <br/>
+						Les canons sont dirigés vers la zone d'attention de chaque joueur, et donc contrôlés par leurs têtes.
+						Ils tirent des balles en permanence, à intervalle régulier.
 					</div>
 				</p>
 				
@@ -126,6 +138,20 @@
 					<strong>La Kinect V2 est le capteur que nous utilisons pour capter les mouvements de la tête des deux joueurs.</strong><br/><br/>
 					Elle dispose d'une caméra et de plusieurs capteurs infrarouge. 
 					La librairie fournit avec de Microsoft nous permet de traiter les données de ces capteurs afin d'obtenir les positions dans l'espace des joueurs. 
+				</div>
+			</div>
+		</div>
+		<div class="bg-faded p-4 my-4">
+			<hr class="divider">
+			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Premier test utilisateur </strong></h2>
+			<hr class="divider"><br>
+			<div class="row">
+				<div class="col-lg-6">
+					Au cours de premiers tests utilisateurs nous avons pu identifié quelques problèmes :<br>
+					- 	expliquer qu'il faut viser avec sa tete et non en bougeant tout son corps<br>
+					-	diminuer la vitesse des ennemis<br>
+					-	retirer les ennemis sur les cotés <br>
+					-	donner une petite persiode d'adaptation avant de commencer le test <br>
 				</div>
 			</div>
 		</div>
