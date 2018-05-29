@@ -65,25 +65,23 @@
 				<li>Gestion du score</li>
 				<li>Gestion des canons et des balles</li>
 			</ul>
-			</p>
-				<p>
+				<div class = "row">
 					<div class="col-lg-6">
 						<strong>Gestion de la génération des ennemis</strong> : <br/>
 						Nous avons crée 3 scripts permettant la génération d'ennemis : <br>
 							un permettant la génération aléatoire des dits ennemis<br>
 							un permettant la génération et l'enregistrement des positions de spawn générées<br>
-							un permet la génération d'ennemis à partir d'un script
+							un permet la génération d'ennemis à partir d'un script<br>
 					</div>
-				</p>
-				<p>
+					
 					<div class="col-lg-6">
+						<br/>
 						<strong>Gestion de la prise de dégat</strong> : <br/>
 							L'ennemis alpha est supprimé dès qu'il entre en contact avec une balle.<br>
 							L'ennemi beta est éliminé dès lors qu'il est touché par 2 balles provenant de chaque joueur dans un intervalle de temps restreint<br>
 					</div>
-				</p>
-				
-				<p>
+				</div>
+				<div class = "row">
 					<div class="col-lg-6">
 						<strong>Gestion du score</strong> : <br/>
 							Conformément au protocole nous avons mis en place deux scores : 
@@ -92,23 +90,14 @@
 								<li>Un score caché, qui mesure leur collaboration selon des scénarios préétablis.</li>
 							</ul>
 					</div>
-				</p>
-				
-				<p>
 					<div class="col-lg-6">
 						<strong>Gestion du canons et des balles</strong> : <br/>
 						Les canons sont dirigés vers la zone d'attention de chaque joueur, et donc contrôlés par leurs têtes.
 						Ils tirent des balles en permanence, à intervalle régulier.
 					</div>
-				</p>
+				</div>
 				
 			</div>
-<<<<<<< HEAD
-=======
-
-			<div class="bg-faded p-4 my-4">
->>>>>>> c6a7f9c0d183461690bd80dd5b0e1e2e04e8a71f
-		</div>
 
 		<div class="bg-faded p-4 my-4">
 			<hr class="divider">
