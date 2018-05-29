@@ -141,6 +141,20 @@
 				</div>
 			</div>
 		</div>
+		<div class="bg-faded p-4 my-4">
+			<hr class="divider">
+			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Premier test utilisateur </strong></h2>
+			<hr class="divider"><br>
+			<div class="row">
+				<div class="col-lg-6">
+					Au cours de premiers tests utilisateurs nous avons pu identifié quelques problèmes :<br>
+					- 	expliquer qu'il faut viser avec sa tete et non en bougeant tout son corps<br>
+					-	diminuer la vitesse des ennemis<br>
+					-	retirer les ennemis sur les cotés <br>
+					-	donner une petite persiode d'adaptation avant de commencer le test <br>
+				</div>
+			</div>
+		</div>
     </div>
 	<br><br>
 
