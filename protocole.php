@@ -41,10 +41,9 @@
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Téléchargements </strong></h2>
 			<hr class="divider">
 				<ul>
-					<li><a href="#">Protocole d'expérience</a></li>
+					<li><a href="doc/Appel à candidature.docx">Documents de recruitement de cobayes</a></li>
 					<li><a href="#">Archive Unity</a></li>
-					<li><a href="#">Documents de recruitement de cobayes</a></li>
-					<li><a href="#">Documents d'expérience</a></li>
+					<li><a href="doc/protocole.docx">Protocole d'expérience</a></li>
 				</ul>
 		</div>
     </div>
