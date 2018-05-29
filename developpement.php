@@ -89,13 +89,15 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Scriptage d'une partie </strong></h2>
 			<hr class="divider"><br>
-			<p>
-				Méthode : 
-					génération aléatoire d'une partie pendant une certaine durée et enregistrement des positions générées pour toutes les vagues dans un fichier texte<br>
-					ajout des évenements scriptés à la main <br>
-					réalisation du symetrique à ajouter à la fin du fichier texte<br>
-				Le script de génération des ennemis est prêt à etre utiliser.<br>
-				Nous avions prévus au départ dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.<br>
+			<div>
+				<div class = "text-center">
+					Méthode : 
+						génération aléatoire d'une partie pendant une certaine durée et enregistrement des positions générées pour toutes les vagues dans un fichier texte<br>
+						ajout des évenements scriptés à la main <br>
+						réalisation du symetrique à ajouter à la fin du fichier texte<br>
+					Le script de génération des ennemis est prêt à etre utiliser.<br>
+					Nous avions prévus au départ dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.<br>
+				</div>
 				<strong>Les évenements scriptés </strong><br> De manière reguliere nous declenchons les evenements suivants :<br>
 				- apparition de l'ennemi beta a gauche(*2)<br>
 				- apparition de l'ennemi beta a droite  (*2)<br>
@@ -103,7 +105,7 @@
 				- surcharge à droite (*2)<br>
 				- surcharge à gauche (*2)<br>
 
-			</p>
+			</div>
 			</div>
 			<div class="bg-faded p-4 my-4">
 			<hr class="divider">
