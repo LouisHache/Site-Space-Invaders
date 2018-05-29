@@ -93,7 +93,6 @@
 					ajout des évenements scriptés à la main <br>
 					réalisation du symetrique à ajouter à la fin du fichier texte<br>
 				Le script de génération des ennemis est prêt à etre utiliser.<br>
-<<<<<<< HEAD
 				Nous avions prévus au départ dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.<br>
 				<strong>Les évenements scriptés </strong><br> De manière reguliere nous declenchons les evenements suivants :<br>
 				- apparition de l'ennemi beta a gauche(*2)<br>
@@ -101,16 +100,6 @@
 				- apparition de l'ennemi beta au centre<br>
 				- surcharge à droite (*2)<br>
 				- surcharge à gauche (*2)<br>
-=======
-				Au depart nous avions pris une vitesse de 2 pour les ennemis. Apres des tests utilisateurs, nous l'avons multipliée par deux. 
-				Nous avions aussi prévus dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.
-				Les evenements scriptés : de maniere reguliere nous declenchons les evenements suivants  :.<br>
-				- apparition de l'ennemi bêta a gauche(*2).<br>
-				- apparition de l'ennemi bêta a droite  (*2).<br>
-				- apparition de l'ennemi bêta au cente.<br>
-				- surcharge à droite (*2).<br>
-				-surcharge à gauche (*2).<br>
->>>>>>> 4244cccabe40b6c716a61d147d5212afcbbda5bb
 
 			</p>
 			</div>
