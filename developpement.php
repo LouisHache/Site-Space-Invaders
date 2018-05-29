@@ -177,6 +177,10 @@
 					-	retirer les ennemis sur les cotés <br>
 					-	donner une petite persiode d'adaptation avant de commencer le test <br>
 				</div>
+				<div class="col-lg-6">
+				<img src="images/crash test relou.jpg" 
+					class="img-fluid center" alt="Alien">		
+				</div>
 			</div>
 		</div>
     </div>
