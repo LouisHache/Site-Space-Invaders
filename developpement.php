@@ -58,28 +58,38 @@
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Le jeu </strong></h2>
 			<hr class="divider"><br>
 			<p>
-			Nous avons séparé le développement du jeu en 4 modules : <br>
-					-	gestion de la génération des ennemis<br>
-					-	gestion de la prise de dégats <br>
-					-	gestion du score<br>
-					-   gestion des canons et des balles<br>
+			Nous avons séparé le développement du jeu en 4 modules :
+			<ul>
+				<li>Gestion de la génération des ennemis</li>
+				<li>Gestion de la prise de dégats</li>
+				<li>Gestion du score</li>
+				<li>Gestion des canons et des balles</li>
+			</ul>
 			</p>
-			<p>
-			<div class="col-lg-6">
-				<strong>gestion de la génération des ennemis</strong>
-				Nous avons crée 3 scripts permettant la génération d'ennemis : <br>
-					un permettant la génération aléatoire des dits ennemis<br>
-					un permettant la génération et l'enregistrement des positions de spawn générées<br>
-					un permet la génération d'ennemis à partir d'un script
-			</div>
-			</p>
-			<p>
-			<div class="col-lg-6">
-				<strong>gestion de la prise de dégat</strong>
-					L'ennemis alpha est supprimé dès qu'il entre en contact avec une balle.<br>
-					L'ennemi beta est éliminé dès lors qu'il est touché par 2 balles provenant de chaque joueur dans un intervalle de temps restreint<br>
-			</div>
-			</p>
+				<p>
+					<div class="col-lg-6">
+						<strong>Gestion de la génération des ennemis</strong> : <br/>
+						Nous avons crée 3 scripts permettant la génération d'ennemis : <br>
+							un permettant la génération aléatoire des dits ennemis<br>
+							un permettant la génération et l'enregistrement des positions de spawn générées<br>
+							un permet la génération d'ennemis à partir d'un script
+					</div>
+				</p>
+				<p>
+					<div class="col-lg-6">
+						<strong>Gestion de la prise de dégat</strong> : <br/>
+							L'ennemis alpha est supprimé dès qu'il entre en contact avec une balle.<br>
+							L'ennemi beta est éliminé dès lors qu'il est touché par 2 balles provenant de chaque joueur dans un intervalle de temps restreint<br>
+					</div>
+				</p>
+				
+				<p>
+					<div class="col-lg-6">
+						<strong>Gestion du score</strong> : <br/>
+							
+					</div>
+				</p>
+				
 			</div>
 			<div class="bg-faded p-4 my-4">
 			<hr class="divider">
