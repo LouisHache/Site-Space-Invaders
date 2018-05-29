@@ -106,8 +106,18 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Sauvegarde des données </strong></h2>
 			<hr class="divider"><br>
-			<p>
-			</p>
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="https://compass-ssl.xbox.com/assets/89/a6/89a6cdd2-28f5-4b62-a4cd-88d910954d7e.jpg?n=X1-Kinect-Sensor_Feature-1400_Voice-Commands_800x450.jpg" 
+					class="img-fluid center" alt="image de la kinect V2">
+					<p><strong>Kinect V2</strong></p>
+				</div>
+				<div class="col-lg-6">
+					<strong>La Kinect V2 est le capteur que nous utilisons pour capter les mouvements de la tête des deux joueurs.</strong><br/><br/>
+					Elle dispose d'une caméra et de plusieurs capteurs infrarouge. 
+					La librairie fournit avec de Microsoft nous permet de traiter les données de ces capteurs afin d'obtenir les positions dans l'espace des joueurs. 
+				</div>
+			</div>
 		</div>
     </div>
 	<br><br>
