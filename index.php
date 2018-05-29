@@ -20,7 +20,7 @@
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Le projet </strong></h2>
 			<hr class="divider"><br>
 			<p class="text-center"><strong>Afficher la zone d’attention des joueurs influe-t-il sur la collaboration observée entre ces joueurs ?</strong></p><br>
-			<p>Pour répondre à cette question, nous avons adapté le célèbre jeu SPACE INVADER sur grand écran, pour deux joueurs. Contrairement à l’originale, cette version du jeu utilise les mouvements de tête pour contrôler la visée, grâce à la technologie du headtracking. 
+			<p>Pour répondre à cette question, nous avons adapté le célèbre jeu <strong>SPACE INVADER</strong> sur grand écran, pour deux joueurs. Contrairement à l’originale, cette version du jeu utilise les mouvements de tête pour contrôler la visée, grâce à la technologie du headtracking. 
 			</p>
 		</div>
 
