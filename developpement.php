@@ -54,34 +54,36 @@
 		</div>
 		
 		<div class="bg-faded p-4 my-4">
-				<hr class="divider">
-				<h2 class="text-center text-lg text-uppercase my-0"> <strong>Le jeu </strong></h2>
-				<hr class="divider"><br>
-				
-				Nous avons séparé le développement du jeu en 4 modules :
-				<ul>
-					<li>Gestion de la génération des ennemis</li>
-					<li>Gestion de la prise de dégats</li>
-					<li>Gestion du score</li>
-					<li>Gestion des canons et des balles</li>
-				</ul>
-				<p>
-				<div class = "row">
-					<div class="col-lg-6">
-						<strong>Gestion de la génération des ennemis</strong><br>
-						Nous avons créé 3 scripts permettant la génération d'ennemis : <br>
-							un permettant la génération aléatoire des dits ennemis<br>
-							un permettant la génération et l'enregistrement des positions de spawn générées<br>
-							un permet la génération d'ennemis à partir d'un script
-					</div>
-				</p>
-				<p>
-					<div class="col-lg-6">
-						<strong>Gestion de la prise de dégats</strong><br>
-							L'ennemi alpha est supprimé dès qu'il entre en contact avec une balle.<br>
-							L'ennemi bêta est éliminé dès lors qu'il est touché par 2 balles provenant de chaque joueur dans un intervalle de temps restreint<br>
-					</div>
-				<p>
+			<hr class="divider">
+			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Le jeu </strong></h2>
+			<hr class="divider"><br>
+			
+			Nous avons séparé le développement du jeu en 4 modules :
+			<ul>
+				<li>Gestion de la génération des ennemis</li>
+				<li>Gestion de la prise de dégats</li>
+				<li>Gestion du score</li>
+				<li>Gestion des canons et des balles</li>
+			</ul>
+			<img src="images/imageJeu.png" alt="screenshot" class="img-center img-fluid">
+			<br>
+			<p>
+			<div class = "row">
+				<div class="col-lg-6">
+				<br>
+					<strong>Gestion de la génération des ennemis</strong><br>
+					Nous avons créé 3 scripts permettant la génération d'ennemis : <br>
+						un permettant la génération aléatoire des dits ennemis<br>
+						un permettant la génération et l'enregistrement des positions de spawn générées<br>
+						un permet la génération d'ennemis à partir d'un script<br>
+				</div>
+				<div class="col-lg-6">
+					<br>
+					<strong>Gestion de la prise de dégats</strong><br>
+						L'ennemi alpha est supprimé dès qu'il entre en contact avec une balle.<br>
+						L'ennemi bêta est éliminé dès lors qu'il est touché par 2 balles provenant de chaque joueur dans un intervalle de temps restreint<br>
+				</div>
+			</div>
 		</div>
 
 		<div class="bg-faded p-4 my-4">
@@ -90,18 +92,17 @@
 			<hr class="divider"><br>
 			<p>
 				Méthode : 
-					génération aléatoire d'une partie pendant une certaine durée  et enregistrement des positions générée pour toutes les vagues dans un fichier texte<br>
+					génération aléatoire d'une partie pendant une certaine durée et enregistrement des positions générées pour toutes les vagues dans un fichier texte<br>
 					ajout des évenements scriptés à la main <br>
 					réalisation du symetrique à ajouter à la fin du fichier texte<br>
 				Le script de génération des ennemis est prêt à etre utiliser.<br>
-				Au depart nous avions pris une vitesse de 2 pour les ennemis. Apres des tests utilisateurs, nous l'avons multipliée par deux. 
-				Nous avions aussi prévus dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.
-				Les evenements scriptés : de maniere reguliere nous declenchons les evenements suivants  :.<br>
-				- apparition de l'ennemi bêta a gauche(*2).<br>
-				- apparition de l'ennemi bêta a droite  (*2).<br>
-				- apparition de l'ennemi bêta au cente.<br>
-				- surcharge à droite (*2).<br>
-				-surcharge à gauche (*2).<br>
+				Nous avions prévus au départ dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.<br>
+				<strong>Les évenements scriptés </strong><br> De manière reguliere nous declenchons les evenements suivants :<br>
+				- apparition de l'ennemi beta a gauche(*2)<br>
+				- apparition de l'ennemi beta a droite  (*2)<br>
+				- apparition de l'ennemi beta au centre<br>
+				- surcharge à droite (*2)<br>
+				- surcharge à gauche (*2)<br>
 
 			</p>
 		</div>
@@ -118,7 +119,7 @@
 					Chaque fichier correspond à une donnée.
 				</p>
 			</div>
-			<p class="center-text"><strong>Les différentes données</strong></p>
+			<p class="center-text"><strong>Les différentes données</strong></p></br></br>
 			<div class="row">
 				<div class="col-lg-6">
 				<img src="images/PA.png" 
@@ -126,8 +127,21 @@
 				</div>
 				<div class="col-lg-6">
 					<strong>Coordonnées du point d'attention</strong></br></br>
-					Nous enregistrons les positions des points d'attentions dans 4 fichiers différents.
+					Nous enregistrons les positions des points d'attentions dans 4 fichiers différents:</br>
+					Un par joueur et un par composante (x et y).</br>
+					Ces données sont du type réel.
 					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<strong>Mort des ennemis</strong></br></br>
+					Nous enregistrons le point où l'ennemi a été tué, le temps auquelle il a été tué, le type d'ennemi (alpha et beta),
+					le joueur qui l'as tué (joueur 1, joueur 2 ou lorsqu'il arrive en bas, on met le nombre 0).					
+				</div>
+				<div class="col-lg-6">
+				<img src="images/alien.png" 
+					class="img-fluid center" alt="Alien">				
 				</div>
 			</div>
 		</div>
