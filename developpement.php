@@ -86,7 +86,19 @@
 				<p>
 					<div class="col-lg-6">
 						<strong>Gestion du score</strong> : <br/>
-							
+							Conformément au protocole nous avons mis en place deux scores : 
+							<ul>
+								<li>Un score de motivation, visible par les joueurs. Il augmente lorsqu'ils éliminent des ennemis et diminue lorsqu'ils les laissent passer.</li>
+								<li>Un score caché, qui mesure leur collaboration selon des scénarios préétablis.</li>
+							</ul>
+					</div>
+				</p>
+				
+				<p>
+					<div class="col-lg-6">
+						<strong>Gestion du canons et des balles</strong> : <br/>
+						Les canons sont dirigés vers la zone d'attention de chaque joueur, et donc contrôlés par leurs têtes.
+						Ils tirent des balles en permanence, à intervalle régulier.
 					</div>
 				</p>
 				
