@@ -98,7 +98,6 @@
 				</div>
 				
 			</div>
-		
 
 		<div class="bg-faded p-4 my-4">
 			<hr class="divider">
@@ -113,12 +112,16 @@
 					Le script de génération des ennemis est prêt à etre utiliser.<br>
 					Nous avions prévus au départ dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.<br>
 				</div>
+
 				<strong>Les évenements scriptés </strong><br> De manière reguliere nous declenchons les evenements suivants :<br>
 				- apparition de l'ennemi beta a gauche(*2)<br>
 				- apparition de l'ennemi beta a droite  (*2)<br>
 				- apparition de l'ennemi beta au centre<br>
 				- surcharge à droite (*2)<br>
 				- surcharge à gauche (*2)<br>
+				</div>
+				<img src="images/script.png" alt="screenshot" class="img-center img-fluid">
+
 
 			</div>
 		</div>
