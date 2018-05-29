@@ -65,25 +65,23 @@
 				<li>Gestion du score</li>
 				<li>Gestion des canons et des balles</li>
 			</ul>
-			</p>
-				<p>
+				<div class = "row">
 					<div class="col-lg-6">
 						<strong>Gestion de la génération des ennemis</strong> : <br/>
 						Nous avons crée 3 scripts permettant la génération d'ennemis : <br>
 							un permettant la génération aléatoire des dits ennemis<br>
 							un permettant la génération et l'enregistrement des positions de spawn générées<br>
-							un permet la génération d'ennemis à partir d'un script
+							un permet la génération d'ennemis à partir d'un script<br>
 					</div>
-				</p>
-				<p>
+					
 					<div class="col-lg-6">
+						<br/>
 						<strong>Gestion de la prise de dégat</strong> : <br/>
 							L'ennemis alpha est supprimé dès qu'il entre en contact avec une balle.<br>
 							L'ennemi beta est éliminé dès lors qu'il est touché par 2 balles provenant de chaque joueur dans un intervalle de temps restreint<br>
 					</div>
-				</p>
-				
-				<p>
+				</div>
+				<div class = "row">
 					<div class="col-lg-6">
 						<strong>Gestion du score</strong> : <br/>
 							Conformément au protocole nous avons mis en place deux scores : 
@@ -92,18 +90,16 @@
 								<li>Un score caché, qui mesure leur collaboration selon des scénarios préétablis.</li>
 							</ul>
 					</div>
-				</p>
-				
-				<p>
 					<div class="col-lg-6">
 						<strong>Gestion du canons et des balles</strong> : <br/>
 						Les canons sont dirigés vers la zone d'attention de chaque joueur, et donc contrôlés par leurs têtes.
 						Ils tirent des balles en permanence, à intervalle régulier.
 					</div>
-				</p>
+				</div>
 				
 			</div>
-			<div class="bg-faded p-4 my-4">
+
+		<div class="bg-faded p-4 my-4">
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Scriptage d'une partie </strong></h2>
 			<hr class="divider"><br>
@@ -113,14 +109,20 @@
 					ajout des évenements scriptés à la main <br>
 					réalisation du symetrique à ajouter à la fin du fichier texte<br>
 				Le script de génération des ennemis est prêt à etre utiliser.<br>
-				Au depart nous avions pris une vitesse de 2 pour les ennemis. Apres des tests utilisateurs, nous l'avons multipliée par deux. 
-				Nous avions aussi prévus dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.
-				Les evenements scriptés : de maniere reguliere nous declenchons les evenements suivants  :.<br>
-				- apparition de l'ennemi beta a gauche(*2).<br>
-				- apparition de l'ennemi beta a droite  (*2).<br>
-				- apparition de l'ennemi beta au cente.<br>
-				- surcharge à droite (*2).<br>
-				-surcharge à gauche (*2).<br>
+				Nous avions prévus au départ dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.<br>
+				<div class = "row">
+				<div class="col-lg-6">
+				<strong>Les évenements scriptés </strong><br> De manière reguliere nous declenchons les evenements suivants :<br>
+				- apparition de l'ennemi beta a gauche(*2)<br>
+				- apparition de l'ennemi beta a droite  (*2)<br>
+				- apparition de l'ennemi beta au centre<br>
+				- surcharge à droite (*2)<br>
+				- surcharge à gauche (*2)<br>
+				</div>
+				<div class="col-lg-6">
+				<img src="images/script.png" alt="screenshot" class="img-center img-fluid">
+				</div>
+				</div>
 
 			</p>
 		</div>
@@ -166,7 +168,7 @@
 		<div class="bg-faded p-4 my-4">
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Premier test utilisateur </strong></h2>
-			<hr class="divider"><br>
+			<hr class="divider"><br/>
 			<div class="row">
 				<div class="col-lg-6">
 					Au cours de premiers tests utilisateurs nous avons pu identifié quelques problèmes :<br>
