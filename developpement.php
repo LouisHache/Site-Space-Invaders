@@ -57,13 +57,14 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Le jeu </strong></h2>
 			<hr class="divider"><br>
-			<p class = "text-center">
-			Nous avons séparé le développement du jeu en 4 modules : <br>
-					-	gestion de la génération des ennemis<br>
-					-	gestion de la prise de dégats <br>
-					-	gestion du score<br>
-					-   gestion des canons et des balles<br>
-			</p>
+			
+			Nous avons séparé le développement du jeu en 4 modules :
+			<ul>
+				<li>Gestion de la génération des ennemis</li>
+				<li>Gestion de la prise de dégats</li>
+				<li>Gestion du score</li>
+				<li>Gestion des canons et des balles</li>
+			</ul>
 			<p>
 			<div class = "row">
 				<div class="col-lg-6">
@@ -80,8 +81,7 @@
 						L'ennemi alpha est supprimé dès qu'il entre en contact avec une balle.<br>
 						L'ennemi bêta est éliminé dès lors qu'il est touché par 2 balles provenant de chaque joueur dans un intervalle de temps restreint<br>
 				</div>
-			</p>
-			</div>
+			<p>
 		</div>
 		<div class="bg-faded p-4 my-4">
 			<hr class="divider">
@@ -108,8 +108,18 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Sauvegarde des données </strong></h2>
 			<hr class="divider"><br>
-			<p>
-			</p>
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="https://compass-ssl.xbox.com/assets/89/a6/89a6cdd2-28f5-4b62-a4cd-88d910954d7e.jpg?n=X1-Kinect-Sensor_Feature-1400_Voice-Commands_800x450.jpg" 
+					class="img-fluid center" alt="image de la kinect V2">
+					<p><strong>Kinect V2</strong></p>
+				</div>
+				<div class="col-lg-6">
+					<strong>La Kinect V2 est le capteur que nous utilisons pour capter les mouvements de la tête des deux joueurs.</strong><br/><br/>
+					Elle dispose d'une caméra et de plusieurs capteurs infrarouge. 
+					La librairie fournit avec de Microsoft nous permet de traiter les données de ces capteurs afin d'obtenir les positions dans l'espace des joueurs. 
+				</div>
+			</div>
 		</div>
     </div>
 	<br><br>
