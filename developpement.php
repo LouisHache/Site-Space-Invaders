@@ -98,42 +98,66 @@
 				</div>
 				
 			</div>
-			<div class="bg-faded p-4 my-4">
-				<hr class="divider">
-				<h2 class="text-center text-lg text-uppercase my-0"> <strong>Scriptage d'une partie </strong></h2>
-				<hr class="divider"><br>
-				<div>
-					<div class = "text-center">
-						Méthode : 
-							génération aléatoire d'une partie pendant une certaine durée et enregistrement des positions générées pour toutes les vagues dans un fichier texte<br>
-							ajout des évenements scriptés à la main <br>
-							réalisation du symetrique à ajouter à la fin du fichier texte<br>
-						Le script de génération des ennemis est prêt à etre utiliser.<br>
-						Nous avions prévus au départ dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.<br>
-					</div>
-					<strong>Les évenements scriptés </strong><br> De manière reguliere nous declenchons les evenements suivants :<br>
-					- apparition de l'ennemi beta a gauche(*2)<br>
-					- apparition de l'ennemi beta a droite  (*2)<br>
-					- apparition de l'ennemi beta au centre<br>
-					- surcharge à droite (*2)<br>
-					- surcharge à gauche (*2)<br>
+		
 
+		<div class="bg-faded p-4 my-4">
+			<hr class="divider">
+			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Scriptage d'une partie </strong></h2>
+			<hr class="divider"><br>
+			<div>
+				<div class = "text-center">
+					Méthode : 
+						génération aléatoire d'une partie pendant une certaine durée et enregistrement des positions générées pour toutes les vagues dans un fichier texte<br>
+						ajout des évenements scriptés à la main <br>
+						réalisation du symetrique à ajouter à la fin du fichier texte<br>
+					Le script de génération des ennemis est prêt à etre utiliser.<br>
+					Nous avions prévus au départ dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.<br>
 				</div>
+				<strong>Les évenements scriptés </strong><br> De manière reguliere nous declenchons les evenements suivants :<br>
+				- apparition de l'ennemi beta a gauche(*2)<br>
+				- apparition de l'ennemi beta a droite  (*2)<br>
+				- apparition de l'ennemi beta au centre<br>
+				- surcharge à droite (*2)<br>
+				- surcharge à gauche (*2)<br>
+
 			</div>
-			<div class="bg-faded p-4 my-4">
+		</div>
+
+		<div class="bg-faded p-4 my-4">
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Sauvegarde des données </strong></h2>
 			<hr class="divider"><br>
 			<div class="row">
+				<p class="center-text">
+					<strong>Les données sont enregistrées dans différents fichiers.</strong></br></br>
+					La nomenclature du dossier de sauvegarde est "NuméroEquipe_Modalité".
+					Ce dossier est séparé en différent sous dossier : un par type de donnée.
+					Chaque fichier correspond à une donnée.
+				</p>
+			</div>
+			<p class="center-text"><strong>Les différentes données</strong></p></br></br>
+			<div class="row">
 				<div class="col-lg-6">
-					<img src="https://compass-ssl.xbox.com/assets/89/a6/89a6cdd2-28f5-4b62-a4cd-88d910954d7e.jpg?n=X1-Kinect-Sensor_Feature-1400_Voice-Commands_800x450.jpg" 
-					class="img-fluid center" alt="image de la kinect V2">
-					<p><strong>Kinect V2</strong></p>
+				<img src="images/PA.png" 
+					class="img-fluid center" alt="Point d'attention">
 				</div>
 				<div class="col-lg-6">
-					<strong>La Kinect V2 est le capteur que nous utilisons pour capter les mouvements de la tête des deux joueurs.</strong><br/><br/>
-					Elle dispose d'une caméra et de plusieurs capteurs infrarouge. 
-					La librairie fournit avec de Microsoft nous permet de traiter les données de ces capteurs afin d'obtenir les positions dans l'espace des joueurs. 
+					<strong>Coordonnées du point d'attention</strong></br></br>
+					Nous enregistrons les positions des points d'attentions dans 4 fichiers différents:</br>
+					Un par joueur et un par composante (x et y).</br>
+					Ces données sont du type réel.
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<strong>Mort des ennemis</strong></br></br>
+					Nous enregistrons le point où l'ennemi a été tué, le temps auquelle il a été tué, le type d'ennemi (alpha et beta),
+					le joueur qui l'as tué (joueur 1, joueur 2 ou lorsqu'il arrive en bas, on met le nombre 0).					
+				</div>
+				<div class="col-lg-6">
+				<img src="images/alien.png" 
+					class="img-fluid center" alt="Alien">				
 				</div>
 			</div>
 		</div>
