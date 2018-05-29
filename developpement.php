@@ -103,13 +103,7 @@
 				</p>
 				
 			</div>
-<<<<<<< HEAD
-		</div>
-
-		<div class="bg-faded p-4 my-4">
-=======
 			<div class="bg-faded p-4 my-4">
->>>>>>> bc3779fe8835394b5cf5b45248f83be426070b1e
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Scriptage d'une partie </strong></h2>
 			<hr class="divider"><br>
