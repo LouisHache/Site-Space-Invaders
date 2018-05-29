@@ -65,6 +65,8 @@
 				<li>Gestion du score</li>
 				<li>Gestion des canons et des balles</li>
 			</ul>
+			<img src="images/imageJeu.png" alt="screenshot" class="img-center img-fluid">
+			<br>
 			<p>
 			<div class = "row">
 				<div class="col-lg-6">
