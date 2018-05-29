@@ -16,9 +16,27 @@
 			<div class = "row center-text">
 				<div class = "col-lg-4">
 				Guillaume Creusot<br>
-				<img src="images/Guigui.JPG" alt="guigui" class="img-center img-fluid rounded-circle"><br>
+				<img src="images/capy.png" alt="capy" class="img-center img-fluid rounded-circle"><br>
+				</div>
+				<div class = "col-lg-4">
+				Salomé Gomez<br>
+				<img src="images/Tatou.Jpg" alt="tatou" class="img-center img-fluid rounded-circle"><br>
+				</div>
+				<div class = "col-lg-4">
+				Younès Rabii<br>
+				<img src="images/fennec.jpg" alt="fennec" class="img-center img-fluid rounded-circle"><br>
 				</div>
 
+			</div>
+			<div class = "row center-text">
+				<div class = "col-lg-4 offset-1">
+					Louis Hache<br>
+					<img src="images/furet.jpg" alt="furet" class="img-center img-fluid rounded-circle"><br>
+				</div>
+				<div class = "col-lg-4 offset-2">
+					Marie-Camille Brunet<br>
+					<img src="images/panda.jpg" alt="panda" class="img-center img-fluid rounded-circle"><br>
+				</div>
 			</div>
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Les Tuteurs </strong></h2>
