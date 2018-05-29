@@ -57,48 +57,60 @@
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Le jeu </strong></h2>
 			<hr class="divider"><br>
+			
+			Nous avons séparé le développement du jeu en 4 modules :
+			<ul>
+				<li>Gestion de la génération des ennemis</li>
+				<li>Gestion de la prise de dégats</li>
+				<li>Gestion du score</li>
+				<li>Gestion des canons et des balles</li>
+			</ul>
 			<p>
-			Nous avons séparé le développement du jeu en 4 modules : <br>
-					-	gestion de la génération des ennemis<br>
-					-	gestion de la prise de dégats <br>
-					-	gestion du score<br>
-					-   gestion des canons et des balles<br>
+			<div class = "row">
+				<div class="col-lg-6">
+					<strong>Gestion de la génération des ennemis</strong><br>
+					Nous avons créé 3 scripts permettant la génération d'ennemis : <br>
+						un permettant la génération aléatoire des dits ennemis<br>
+						un permettant la génération et l'enregistrement des positions de spawn générées<br>
+						un permet la génération d'ennemis à partir d'un script
+				</div>
 			</p>
 			<p>
-			<div class="col-lg-6">
-				<strong>gestion de la génération des ennemis</strong>
-				Nous avons crée 3 scripts permettant la génération d'ennemis : <br>
-					un permettant la génération aléatoire des dits ennemis<br>
-					un permettant la génération et l'enregistrement des positions de spawn générées<br>
-					un permet la génération d'ennemis à partir d'un script
-			</div>
-			</p>
+				<div class="col-lg-6">
+					<strong>Gestion de la prise de dégats</strong><br>
+						L'ennemi alpha est supprimé dès qu'il entre en contact avec une balle.<br>
+						L'ennemi bêta est éliminé dès lors qu'il est touché par 2 balles provenant de chaque joueur dans un intervalle de temps restreint<br>
+				</div>
 			<p>
-			<div class="col-lg-6">
-				<strong>gestion de la prise de dégat</strong>
-					L'ennemis alpha est supprimé dès qu'il entre en contact avec une balle.<br>
-					L'ennemi beta est éliminé dès lors qu'il est touché par 2 balles provenant de chaque joueur dans un intervalle de temps restreint<br>
-			</div>
-			</p>
-			</div>
-			<div class="bg-faded p-4 my-4">
+		</div>
+		<div class="bg-faded p-4 my-4">
 			<hr class="divider">
 			<h2 class="text-center text-lg text-uppercase my-0"> <strong>Scriptage d'une partie </strong></h2>
 			<hr class="divider"><br>
 			<p>
 				Méthode : 
-					génération aléatoire d'une partie pendant une certaine durée  et enregistrement des positions générée pour toutes les vagues dans un fichier texte<br>
+					génération aléatoire d'une partie pendant une certaine durée et enregistrement des positions générées pour toutes les vagues dans un fichier texte<br>
 					ajout des évenements scriptés à la main <br>
 					réalisation du symetrique à ajouter à la fin du fichier texte<br>
 				Le script de génération des ennemis est prêt à etre utiliser.<br>
+<<<<<<< HEAD
+				Nous avions prévus au départ dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.<br>
+				<strong>Les évenements scriptés </strong><br> De manière reguliere nous declenchons les evenements suivants :<br>
+				- apparition de l'ennemi beta a gauche(*2)<br>
+				- apparition de l'ennemi beta a droite  (*2)<br>
+				- apparition de l'ennemi beta au centre<br>
+				- surcharge à droite (*2)<br>
+				- surcharge à gauche (*2)<br>
+=======
 				Au depart nous avions pris une vitesse de 2 pour les ennemis. Apres des tests utilisateurs, nous l'avons multipliée par deux. 
 				Nous avions aussi prévus dans le protocole de réaliser des partie de 10 minutes (20 minutes au total pour les 2 configurations). Nous nous sommes vite rendu compte que cela etait beaucoup trop long, nous avons donc divisé ce temps par 2.
 				Les evenements scriptés : de maniere reguliere nous declenchons les evenements suivants  :.<br>
-				- apparition de l'ennemi beta a gauche(*2).<br>
-				- apparition de l'ennemi beta a droite  (*2).<br>
-				- apparition de l'ennemi beta au cente.<br>
+				- apparition de l'ennemi bêta a gauche(*2).<br>
+				- apparition de l'ennemi bêta a droite  (*2).<br>
+				- apparition de l'ennemi bêta au cente.<br>
 				- surcharge à droite (*2).<br>
 				-surcharge à gauche (*2).<br>
+>>>>>>> 4244cccabe40b6c716a61d147d5212afcbbda5bb
 
 			</p>
 			</div>
