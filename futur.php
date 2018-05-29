@@ -26,8 +26,8 @@
 			<p>
 			Un des aspects fondamentaux de notre projet est l'utilisation d'écran sans autre outil que le corps humain lui même. </br>
 			En effet, la technologie Kinect que nous utilisons permet non seulement l'utilisation de la tête et/ou des mains pour contrôler les actions, mais également la possibilité de distinquer plusieurs personnes.
-			Grâce à cela, il sera possible de diminuer le nombre d'écran dans les environnements publics (par exemple les gares ou tout autre lieu nécessitant des écrans) ainsi que le nombre d'outils indispensables à leur bon fonctionnement.
-			Nous pourrons ainsi réduire non seulement la production de tel outils, mais également la consommation d'énergie des écrans. 
+			Grâce à cela, il sera possible de <strong>diminuer le nombre d'écran</strong> dans les environnements publics (par exemple les gares ou tout autre lieu nécessitant des écrans) ainsi que le nombre d'outils indispensables à leur bon fonctionnement.
+			Nous pourrons ainsi <strong>réduire</strong> non seulement la <strong>production</strong> de tel outils, mais également la <strong>consommation</strong> d'énergie des écrans. 
 			</p>
 		</div>
     </div>
